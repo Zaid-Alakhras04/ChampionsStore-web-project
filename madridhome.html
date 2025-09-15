@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid kits</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+   <header>
+        <img src="img/ft logo.png" alt="the main logo" id="logo">
+        <h1 id="title">
+            Champions Store
+        </h1>
+
+         <nav id="category">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+         <div id="cart-container">
+            <a href="cart.html">
+                 <img src="img/cart.png" alt="Cart" id="cart-icon">
+                 <span id="cart-count">0</span>
+             </a>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="kitname">Real Madrid Home kit 24/25</h1>
+        <div class="details">
+                        <img src="img/madrid home.jpg" alt="real madrid home kit" id="madridkit">
+
+        </div>
+    
+        <div class="size">
+            <fieldset>
+                 <legend>Select Your Size</legend>
+  
+                         <label>
+                         <input type="radio" name="size" value="S" required> S
+                         </label><br>
+  
+                         <label>
+                         <input type="radio" name="size" value="M"> M
+                        </label><br>
+  
+                        <label>
+                        <input type="radio" name="size" value="L"> L
+                        </label><br>
+  
+                         <label>
+                        <input type="radio" name="size" value="XL"> XL
+                        </label><br>
+
+                         <label>
+                        <input type="radio" name="size" value="XXL"> XXL
+                        </label>
+                        
+             </fieldset>
+        </div>
+
+        <div class="quantity">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" required>
+        </div>
+        
+        <div class="price" id="pri">
+            <p>10.00 JD</p>
+        </div>
+
+        <div class="addcartbtn">
+            <button type="submit" onclick="addKit()">Add To Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footerdiv">
+            <img src="img/logo.png" alt=" Store logo">
+
+            <strong>Follow Us </strong>
+            <a href="https://www.instagram.com/champions.store.officiall/" target="_blank">
+                <img src="img/insta.jpeg" alt="instagram logo">
+                
+            </a>
+
+
+            <div id="Copyrightdiv">
+                  <p>Copyright &copy; 2025 Champions. All rights reserved.  </p>
+
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

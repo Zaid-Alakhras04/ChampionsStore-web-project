@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+        <div id="headerdiv">
+        <img src="img/ft logo.png" alt="the main logo" id="logo">
+        <h1 id="title">
+            Champions Store
+        </h1>
+        </div>
+
+         <nav id="category">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div id="contactform">
+    <form action="">
+
+        <input type="text" id="name" placeholder="Enter your name" required >
+
+        <input type="tel" id="phone" placeholder="Enter you phone number" pattern="[0-9]{10}" required>
+
+        <textarea id="contacttxt" placeholder="Enter your Notes" maxlength="300" required></textarea>
+
+        <button type="submit" id="submitbtn" onclick="showmessage()">Submit</button>
+
+    </form>
+    </div>
+
+    <footer>
+        <div id="footerdiv">
+            <img src="img/logo.png" alt=" Store logo">
+
+            <strong>Follow Us </strong>
+            <a href="https://www.instagram.com/champions.store.officiall/" target="_blank">
+                <img src="img/insta.jpeg" alt="instagram logo">
+                
+            </a>
+
+
+            <div id="Copyrightdiv">
+                  <p>Copyright &copy; 2025 Champions. All rights reserved.  </p>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
